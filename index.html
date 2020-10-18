@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Регистрация нового пользователя</title>
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+<script src="script.js"></script>
+</head>
+<body>
+  <div id="login">
+    <div class="form-signup">
+      <h1>Регистрация</h1>
+      <fieldset>
+      <p class="login-msg"></p>
+        <form>
+          <input type="email" id="email" placeholder="Введите E-mail адрес" required />
+          <input type="password" id="password" placeholder="Ваш пароль" required />
+          <input type="text" id="login" placeholder="Имя пользователя" required />
+          <input type="button" class="submit" value="Зарегистрироваться" onclick="sendJSON()"></input>
+        </form>
+        <p>Войти через: <span class="social fb">Facebook</span> <span class="social gp">Google +</span></p>
+      </fieldset>
+    </div>
+</div>
+</body>
+</html>
